@@ -21,12 +21,25 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
-              <div className="inline-block">
+              <div className="flex items-center gap-4">
                 <img
                   src="/ChatGPT Image 16 nov 2025, 02_02_16.png"
                   alt="ADES Logo"
-                  className="w-32 h-32 mb-4 animate-float"
+                  className="w-32 h-32 animate-float"
                 />
+                <a
+                  href="https://x.com/ADES_PROTOCOL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative p-3 neon-border bg-black/30 hover:bg-cyan-400/10 transition-all duration-300"
+                >
+                  <img
+                    src="/twitter-x-logo.png"
+                    alt="X (Twitter)"
+                    className="w-8 h-8 opacity-80 group-hover:opacity-100 transition-opacity"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 via-cyan-400/20 to-cyan-400/0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
               </div>
 
               <h1 className="text-7xl md:text-8xl lg:text-9xl font-black tracking-tighter glow-cyan">
